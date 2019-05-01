@@ -100,3 +100,58 @@ raw/bd13a3e13823708e477f99f9285f845b292714c6/cidades_sc.txt`
 17. `tar -c balneario.txt > compactado.tar`
 
 18. `tar -x -f compactado.tar`
+
+### *Shell Script*
+
+#### 1 Questao
+
+        #!/bin/bash
+        echo "Digite seu nome"
+        read nome
+        echo "bom dia $nome"
+        
+#### 2 Questao
+        
+        #!/bin/bash
+        echo "Digite o primeiro numero"
+        read primeiro
+        echo "Digite o segundo numero"
+        read segundo
+        echo "a resposta é $[ $primeiro * $segundo]"
+
+#### 3 Questao
+
+        #!/bin/bash
+        echo "Digite um numero"
+        read numero
+        if [ $numero -ge 0 ]; then 
+                echo "Positivo"
+        else
+                echo "Negativo"
+        fi
+        
+#### 4 Questao
+
+        #!/bin/bash
+        echo "Digite um numero"
+        read numero
+        y=1
+        while [  $y -le 10  ]; do
+           echo "$[$numero * $y]"
+           y=$[ $y + 1 ]
+        done
+#### 5 Questao
+        
+        #!/bin/bash
+        echo "Opcoes
+        ----
+        1: Calendario
+        ----
+        2: Arquivo do diretorio"
+        read opcao
+
+        if [ $opcao = 1 ]; then
+                echo | cal
+        else 
+                echo | ls
+        fi
