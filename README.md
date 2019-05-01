@@ -57,7 +57,8 @@ rm -r clientes
 raw/bd13a3e13823708e477f99f9285f845b292714c6/cidades_sc.txt`
 
 12. `grep Balneario index.html`
-<td id="file-cidades_sc-txt-LC26" class="blob-code blob-code-inner js-file-line">Balneario Arroio do Silva</td>
+
+        <td id="file-cidades_sc-txt-LC26" class="blob-code blob-code-inner js-file-line">Balneario Arroio do Silva</td>
         <td id="file-cidades_sc-txt-LC27" class="blob-code blob-code-inner js-file-line">Balneario Barra do Sul</td>
         <td id="file-cidades_sc-txt-LC28" class="blob-code blob-code-inner js-file-line">Balneario Camboriu</td>
         <td id="file-cidades_sc-txt-LC29" class="blob-code blob-code-inner js-file-line">Balneario Gaivota</td>
@@ -85,6 +86,7 @@ raw/bd13a3e13823708e477f99f9285f845b292714c6/cidades_sc.txt`
         <td id="file-cidades_sc-txt-LC268" class="blob-code blob-code-inner js-file-line">Timbe do Sul</td>
         
 15. `cat index.html | grep Balneario`
+
         <td id="file-cidades_sc-txt-LC26" class="blob-code blob-code-inner js-file-line">Balneario Arroio do Silva</td>
         <td id="file-cidades_sc-txt-LC27" class="blob-code blob-code-inner js-file-line">Balneario Barra do Sul</td>
         <td id="file-cidades_sc-txt-LC28" class="blob-code blob-code-inner js-file-line">Balneario Camboriu</td>
