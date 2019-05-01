@@ -20,31 +20,34 @@ ls`
 7. `rm cliente01.txt 
 ls` 
 
-8. > vi clientes.script
-  > #!/bin/bash
-  > echo "gabrielly gomes martinez."
+8.  criar script 
 
-  > #cria o nome e  dentro dentro arquivo txt
-  > echo "gabrielly gomes martinez." > cliente01.txt
-  > less cliente01.txt
+        vi clientes.script
 
-  > #cria o nome da cidade que morei e bota na ultima linha
-  > echo "praia grande" >> cliente01.txt
-  > less cliente01.txt
+         #!/bin/bash
+         echo "gabrielly gomes martinez."
 
-  > #cria um diretorio
-  > mkdir clientes
-  > #move o arq txt para clientes
-  > mv cliente01.txt clientes
+         #cria o nome e  dentro dentro arquivo txt
+         echo "gabrielly gomes martinez." > cliente01.txt
+         less cliente01.txt
 
-  > #entra dentro do arquivo
-  > cd clientes
+         #cria o nome da cidade que morei e bota na ultima linha
+         echo "praia grande" >> cliente01.txt
+         less cliente01.txt
 
-  > #copia um arquivo pra fazer um beckupzinho
-  > cp cliente01.txt cliente01.txt.bkp
+         #cria um diretorio
+         mkdir clientes
+         #move o arq txt para clientes
+         mv cliente01.txt clientes
 
-  > #remove o antigo
-  > rm cliente01.txt
+         #entra dentro do arquivo
+         cd clientes
+
+         #copia um arquivo pra fazer um beckupzinho
+         cp cliente01.txt cliente01.txt.bkp
+
+         #remove o antigo
+         rm cliente01.txt
 
 9.` chmod +x clientes.script
 rm -r clientes
