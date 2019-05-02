@@ -2,23 +2,24 @@
 
 1. `echo "gabrielly gomes martinez."`
 
-2. ` echo "gabrielly gomes martinez." > cliente01.txt
-less clientes01.txt`
+2. ` echo "gabrielly gomes martinez." > cliente01.txt`       
+`less clientes01.txt`
 
-3. `echo "praia grande" >> cliente01.txt
-less clientes01.txt` 
-4. `  mkdir clientes
-ls`
+3. `echo "praia grande" >> cliente01.txt`
+`less clientes01.txt`
+        
+4. `  mkdir clientes`
+`ls`
 
-5. ` mv cliente01.txt clientes
-cd clientes
-ls`
+5. `mv cliente01.txt clientes`
+`cd clientes`
+`ls`
 
-6. ` cp cliente01.txt cliente01.txt.bkp
-ls`
+6. ` cp cliente01.txt cliente01.txt.bkp`
+`ls`
 
-7. `rm cliente01.txt 
-ls` 
+7. `rm cliente01.txt `
+`ls` 
 
 8.  criar script 
 
@@ -49,12 +50,13 @@ ls`
          #remove o antigo
          rm cliente01.txt
 
-9.` chmod +x clientes.script
-rm -r clientes
-./clientes.script`
+9.` chmod +x clientes.script`
+`rm -r clientes`
+`./clientes.script`
 
-10.`Executando a operação 	echo | cal hoje.txt
-  aparece o calendario com a marcação do dia atual, o operador | serve para filtrar`
+10.`Executando a operação 	echo | cal hoje.txt`
+
+> aparece o calendario com a marcação do dia atual, o operador | serve para filtrar
 
 11. `wget https://gist.githubusercontent.com/leandersonandre/c8cba982f42262591be628e5397d1c3f/raw/bd13a3e13823708e477f99f9285f845b292714c6/cidades_sc.txt`
 
