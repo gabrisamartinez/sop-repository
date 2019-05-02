@@ -5,20 +5,26 @@
 2. ` echo "gabrielly gomes martinez." > cliente01.txt`       
 `less clientes01.txt`
 
-3. `echo "praia grande" >> cliente01.txt`
+3. `echo "praia grande" >> cliente01.txt` 
+
 `less clientes01.txt`
         
-4. `  mkdir clientes`
+4. `  mkdir clientes` 
+
 `ls`
 
 5. `mv cliente01.txt clientes`
-`cd clientes`
+
+`cd clientes` 
+
 `ls`
 
-6. ` cp cliente01.txt cliente01.txt.bkp`
+6. ` cp cliente01.txt cliente01.txt.bkp` 
+
 `ls`
 
-7. `rm cliente01.txt `
+7. `rm cliente01.txt` 
+
 `ls` 
 
 8.  criar script 
@@ -68,7 +74,8 @@
         Balneario Gaivota
 
 
-13. `grep balneario cidades_sc.txt // não aparece nada porque ele é camelCase`
+13. `grep balneario cidades_sc.txt`
+> não aparece nada porque ele é camelCase
 
 14. `grep "do Sul" cidades_sc.txt`
 
