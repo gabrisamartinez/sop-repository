@@ -8,7 +8,7 @@ function_terminate() {
 function_showOptionsMenu() {
 	clear
 	option=0
-	while [[ $option  != 3 ]]; do
+	while [[ $option  -ne 3 ]]; do
 		echo "
 
 		----------------------------------------------------------
@@ -30,10 +30,10 @@ function_showOptionsMenu() {
 		read user_option
 		option=$user_option
 
-		if [ $option == 1 ]; then
+		if [ $option -eq 1 ]; then
 			saldo=`cat bank-service/$nome_usuario/saldo.txt`
 			echo "Seu saldo é: R$ $saldo"
-		elif [ $option == 2]; then
+		elif [ $option -eq 2]; then
 			extrato=`cat bank-service/$nome_usuario/extrato.txt`
 			echo "Seu extrato: $ $extrato"
 		fi 
