@@ -1,0 +1,80 @@
+1.	 O que é concorrência e como este conceito está presente nos sistemas operacionais multiprogramáveis?
+
+R.: O conceito de concorrência é quando dois ou mais processos são executados simultaneamente, ou seja, ambos estão sendo processados juntos. Sua presença em um sistema multiprogramável é que, um sistema multiprogramável são vários processos ocupando a memória.
+
+2.	Por que o mecanismo de interrupção é fundamental para a implementação da multiprogramação?
+
+R.:  Em um sistema multiprogramável é o mecanismo de interrupção que torna possível a implementação da concorrência, além de substituir a verificação manual do processador.
+
+3.	Explique o mecanismo de funcionamento das interrupções.
+
+R.: 
+1. Salva o conteúdo dos registradores na pilha de controle.
+2. Identifica a origem do evento.
+3. Obtém o endereço da rotina de tratamento.
+4. Faz a rotina de tratamento.
+5. Restaura o conteúdo dos registradores.
+
+4.	O que são eventos síncronos e assíncronos? Como estes eventos estão relacionados ao mecanismo de interrupção e exceção?
+
+R.: Eventos síncronos são eventos previsíveis e diretos, podendo executar um de cada vez. Esse tipo de evento está relacionado ao mecanismo de execução por ser resultante direto de uma instrução do programa.
+Já os eventos assíncronos, ao contrário dos eventos síncronos, são imprevisíveis, podendo ocorrer várias vezes, podendo também conter várias interrupções, uma vez que não tem relação com nenhuma instrução de programa.
+
+5.	Dê exemplos de eventos associados ao mecanismo de exceção.
+
+R.: Eventos associados como mecanismo de exceção são números divisórios por 0, tentar pegar um valor de um objeto e passar para ele sendo esse valor totalmente nulo etc. 
+
+6.	Qual a vantagem da E/ S controlada por interrupção comparada com a técnica de pooling?
+
+R.: Sua maior vantagem, em comparação com a técnica de pooling é que a técnica de pooling fica estagnado em um processo sempre ‘perguntando’ se já foi executado, já o processo de E/S não tem a necessidade de espera, tendo várias operações sendo executadas ao mesmo tempo.
+
+7.	O que é DMA e qual a vantagem desta técnica?
+R.: DMA (Direct Memory Access)  é a técnica que possibilita a transferência de dados sem a intervenção do processador, tendo conexão com o dispositivo de E/S e sua única intervenção é o inicio e o final do processo. 
+
+8.	Como a técnica de buffering permite aumentar a concorrência em um sistema computacional?
+
+R.: A técnica de buffering é uma área designada para armazenamento temporário na memória principal para a transferência de dados  entre os dispositivos de E/S e a memória principal. 
+
+9.	 Explique o mecanismo de spooling de impressão.
+
+R.: É um mecanismo que consiste em transferir processos para o buffer (espaço na memoria vago), deixando a memória livre para outras tarefas.
+
+
+### LINK
+
+1.	O que é política de escalonamento de um sistema operacional?
+
+R.: São critérios estabelecidos para direcionar qual processo prioritário para aquele sistema.
+
+2.	Quais as funções do escalonador e do dispatcher?
+
+R.: O escalonador tem como seu principal objetivo escolher qual processo deve ser executado, ou seja, quando há dois processos a ser executado, é o escalador responsável para designar qual processo será o primeiro. Sendo muitas vezes chamado também para conduzir um bloqueio de um processo. Já o dispatcher é responsável por o próximo programa/processo a ser executado.
+
+3.	Quais os principais critérios utilizados em uma política de escalonamento?
+
+R.:		
+•	Utilização do processador
+•	Throughput
+•	Tempo de processamento
+•	Tempo de espera
+•	Tempo de turnaround
+•	Tempo de resposta
+
+4.	Diferencie o tempo de processador, espera, Turnround e resposta.
+
+R.: tempo de processador > É o tempo levado para um processo de execução.
+
+Tempo de espera > O tempo que o processador espera na fila aguardando ser executado. 
+
+Turnround > É o intervalo de tempo entre a submissão entre um processo e o seu término.
+
+Resposta > É o tempo que teve durante a requisição do processo e sua resposta.
+
+
+5.	Diferencie os escalonamentos preemptivos e não preemptivos.
+
+R.: Um escalonamento preemptivo é quando um processo está sendo executado e o sistema operacional consegue interromper sua execução com o objetivo de iniciar outro. Já o não preemptivo é quando aquele processo não pode ser interrompido até que ele seja processado por inteiro.
+
+6.	Qual a diferença entre o escalonamento FIFO e circular?
+
+R.: 
