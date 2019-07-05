@@ -1,11 +1,18 @@
-#### Instruções
+### 1 BIMESTRE
+  Trabalhos e Exercicios do 1 BIM
 
-Projeto funcionando usando Java 8
+### 2 BIMESTRE
+  * trabalho1 - exercicio 1 
+  
+  * work - trabalho 2: 
+    #### Instruções
 
-Instalar maven:
-```sudo apt install maven```
+    Projeto funcionando usando Java 8
 
-Build do projeto:
-```mvn clean install```
+    Instalar maven:
+    ```sudo apt install maven```
 
-Importar projeto no Eclipse e rodar o App.java
+    Build do projeto:
+    ```mvn clean install```
+
+    Importar projeto no Eclipse e rodar o App.java
