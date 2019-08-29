@@ -50,7 +50,8 @@ public class Main {
 						vetor[j].size -= process;
 
 						System.out.println("Processo " + (i + 1)
-								+ ". Espaço restante após a alocação " + vetor[j].size);
+								+ ". Espaço restante após a alocação " + vetor[j].size
+								+ "vetor: " + vetor);
 						break;
 					}
 				}
